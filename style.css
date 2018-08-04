@@ -8,6 +8,8 @@ body {
 	background: navy;
 }
 
+
+
 header {
 	background: ivory;
 	padding: 20px;
@@ -65,7 +67,7 @@ header > h1 {
 }
 
 .choices {
-	margin: 50px 0;
+	margin-top: 50px 0;
 	text-align: center;
 }
 .choice {
@@ -88,7 +90,21 @@ header > h1 {
 	font-family: 'Karla' , sans-serif;
 	font-weight: bold;
 	font-size: 20px;
+	margin-top: 20px;
 }
 
+.green-glow {
+	border: 4px solid #4dcc7d;
+	box-shadow: 0 0 10px #31b43a;
+}
 
+.red-glow {
+	border: 4px solid #fc121b;
+	box-shadow: 0 0 10px #d01115;
+}
+
+.grey-glow {
+	border: 4px solid #464647;
+	box-shadow: 0 0 10px #25292b;
+}
 
