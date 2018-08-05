@@ -41,7 +41,7 @@ function lose(userChoice, computerChoice) {
 	computerScore_span.innerHTML = computerScore;
 	const smallUserWord = "user".fontsize(3).sub();
 	const smallCompWord = "comp".fontsize(3).sub();
-	result_p.innerHTML = `${convert(userChoice)}${smallUserWord} loses to ${convert(computerChoice)}.${smallCompWord} You lost!... 💩`;
+	result_p.innerHTML = `${convert(userChoice)}${smallUserWord} loses to ${convert(computerChoice)}.${smallCompWord} You lost... 💩`;
 	document.getElementById(userChoice).classList.add('red-glow');
 	setTimeout(() => document.getElementById(userChoice).classList.remove('red-glow'), 500);
 }
